@@ -1,0 +1,10 @@
+def factorial(n):
+    # Base case: when n reaches 1, stop recursion
+    if n == 1:
+        return 1
+    else:
+        # Recursive case: n * factorial(n-1)
+        return n * factorial(n - 1)
+
+# Example usage
+print(factorial(5))  # Output will be 120 (5 * 4 * 3 * 2 * 1)
